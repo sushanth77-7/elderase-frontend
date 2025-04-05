@@ -1,0 +1,36 @@
+/* Header Styles */
+.header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Register Button Styles */
+.register-button {
+  background-color: #27ae60; /* Green color */
+  color: white;
+  padding: 12px 24px; /* Bigger size */
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.register-button:hover {
+  background-color: #219653; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.register-button:active {
+  transform: translateY(0); /* Reset on click */
+}

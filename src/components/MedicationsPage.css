@@ -1,0 +1,60 @@
+/* Center the entire page content */
+.medications-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+}
+
+/* Center the heading */
+.medications-page h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Arrange buttons in a column */
+.medication-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+/* Styling for buttons */
+.medication-button {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  text-align: center;
+}
+
+/* Hover Effect */
+.medication-button:hover {
+  background: linear-gradient(135deg, #0056b3, #003d80);
+  transform: scale(1.05);
+}
+
+/* Active/Clicked Effect */
+.medication-button:active {
+  transform: scale(0.95);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .medication-button {
+      width: 80%;
+  }
+}

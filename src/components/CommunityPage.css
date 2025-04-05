@@ -1,0 +1,70 @@
+/* Community Page Styles */
+.community-page {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+.community-page h2 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.community-page .subtitle {
+  color: #34495e;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.community-page ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.community-page li {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  color: #34495e;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.community-page li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.community-page .additional-guidelines {
+  margin-top: 30px;
+}
+
+.community-page .additional-guidelines p {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  color: #34495e;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.community-page .additional-guidelines p:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.community-page .additional-guidelines strong {
+  color: #2c3e50;
+  font-weight: 600;
+}

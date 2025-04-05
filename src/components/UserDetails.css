@@ -1,0 +1,270 @@
+/* UserDetails.css */
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .user-details h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .details-container {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .details-container p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 0.8rem 0;
+    line-height: 1.6;
+  }
+  
+  .details-container strong {
+    color: #333;
+    font-weight: 600;
+    margin-right: 0.5rem;
+  }
+  
+  /* Add a subtle border between details */
+  .details-container p:not(:last-child) {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.8rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .user-details {
+      padding: 1rem;
+    }
+  
+    .user-details h2 {
+      font-size: 2rem;
+    }
+  
+    .details-container {
+      padding: 1.5rem;
+    }
+  
+    .details-container p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .user-details h2 {
+      font-size: 1.8rem;
+    }
+  
+    .details-container {
+      padding: 1rem;
+    }
+  
+    .details-container p {
+      font-size: 0.95rem;
+    }
+  }
+  /* UserDetails.css */
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.user-details h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.details-container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.details-container p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 0.8rem 0;
+  line-height: 1.6;
+}
+
+.details-container strong {
+  color: #333;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.medical-guide {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 800px;
+  width: 100%;
+}
+
+.medical-guide h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.guide-section {
+  margin-bottom: 1.5rem;
+}
+
+.guide-section h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.guide-section h3 svg {
+  margin-right: 0.5rem;
+  color: #007bff; /* Icon color */
+}
+
+.guide-section p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+/* UserDetails.css */
+.user-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-details h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.details-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.details-container p {
+  margin: 10px 0;
+  color: #555;
+  font-size: 16px;
+}
+
+.medication-reminder-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.medication-reminder-button:hover {
+  background-color: #0056b3;
+}
+
+.medical-guide {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.medical-guide h2 {
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.guide-section {
+  margin-bottom: 15px;
+}
+
+.guide-section h3 {
+  color: #007bff;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.guide-section p {
+  color: #555;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .user-details {
+    padding: 10px;
+  }
+
+  .user-details h2 {
+    font-size: 20px;
+  }
+
+  .details-container p {
+    font-size: 14px;
+  }
+
+  .medication-reminder-button {
+    font-size: 14px;
+  }
+
+  .medical-guide h2 {
+    font-size: 20px;
+  }
+
+  .guide-section h3 {
+    font-size: 16px;
+  }
+
+  .guide-section p {
+    font-size: 14px;
+  }
+}

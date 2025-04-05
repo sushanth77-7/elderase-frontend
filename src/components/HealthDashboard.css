@@ -1,0 +1,60 @@
+.dashboard-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #e3f2fd;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .confirm-btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .confirm-btn:hover {
+    background: #218838;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  .confirm-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #45a049;
+  }
